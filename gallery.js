@@ -1,4 +1,18 @@
  /*Name this external file gallery.js*/
+const owew =()=>{
+    const images = document.querySelectorAll('.preview');
+images.forEach((element,i)=>{
+      this.upDate(element);
+  element.setAttribute("tabindex","0"); 
+
+})}
+
+function tabFocus(previewPic) {
+    console.log("Li pati")
+    upDate(previewPic);
+    
+}
+
 
 function upDate(previewPic){
  /* In this function you should 
@@ -31,11 +45,5 @@ function upDate(previewPic){
 
     // images[i].setAttribute("tabindex", "0")
 
+window.onload=owew()
 
-    const images = document.querySelectorAll('.preview');
-images.forEach((element,i)=>{
-      this.upDate(element);
-  element.setAttribute("tabindex","0"); 
-
-
-})
